@@ -1,9 +1,9 @@
 package main.task2;
 
-public class task2 {
+public class Task2 {
     private final static double epsilon = 0.000001;
     public static void main(String[] args) {
-        task2 myTask = new task2();
+        Task2 myTask = new Task2();
         myTask.findMinIndex(1);
     }
     public void findMinIndex(double n) {
